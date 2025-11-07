@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teaser Pembelajaran: Dasar-Dasar Kecerdasan Buatan (AI)</title>
+    <!-- Memuat Tailwind CSS untuk styling yang responsif dan modern -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Gaya Kustom agar landing page terlihat seperti 'slide' */
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+            background-color: #f8f9fa;
+        }
+        .slide {
+            /* Memastikan tinggi minimal agar setiap bagian terasa seperti slide */
+            min-height: 80vh; 
+            padding: 4rem 1rem;
+            display: flex;
+            align-items: center;
+        }
+        .header-shadow {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .media-thumbnail-container {
+            transition: transform 0.3s ease;
+        }
+        .media-thumbnail-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- 1. Header (Wajib: Berisi judul) -->
+    <header class="sticky top-0 bg-white header-shadow z-10">
+        <div class="max-w-4xl mx-auto p-4 flex justify-between items-center">
+            <h1 class="text-2xl font-extrabold text-indigo-700">
+                AI.DASAR
+            </h1>
+            <span class="text-sm text-gray-500 hidden sm:block">Teaser Pembelajaran (Landing Page Scroll Down)</span>
+            <!-- PENTING: Tidak ada tombol navigasi sesuai instruksi -->
+        </div>
+    </header>
+
+    <!-- 2. Bagian Pendahuluan (Wajib: Satu Slide) -->
+    <section id="pendahuluan" class="slide bg-indigo-700 text-white">
+        <div class="max-w-4xl mx-auto text-center p-6">
+            <h2 class="text-5xl md:text-6xl font-extrabold mb-4">Mengenal Kecerdasan Buatan (AI)</h2>
+            <p class="text-xl md:text-2xl font-light">
+                Selamat datang! Gulir ke bawah untuk perjalanan singkat memahami fondasi, penerapan, dan tantangan AI.
+            </p>
+        </div>
+    </section>
+
+    <!-- BAGIAN KONTEN UTAMA (Wajib: Minimal Empat Slide) -->
+
+    <!-- Slide 1: Definisi AI -->
+    <section id="konten-1" class="slide bg-white">
+        <div class="max-w-4xl mx-auto p-6">
+            <h3 class="text-3xl font-bold mb-4 text-indigo-600">1. Apa Itu AI?</h3>
+            <p class="text-lg leading-relaxed">
+                Kecerdasan Buatan (Artificial Intelligence) adalah simulasi proses kecerdasan manusia oleh mesin, terutama sistem komputer. Proses ini mencakup pembelajaran, penalaran, dan koreksi diri. AI adalah upaya untuk membuat komputer berpikir dan bertindak seperti manusia.
+            </p>
+                    </div>
+    </section>
+
+    <!-- Slide 2: Jenis-Jenis AI -->
+    <section id="konten-2" class="slide bg-gray-100">
+        <div class="max-w-4xl mx-auto p-6">
+            <h3 class="text-3xl font-bold mb-4 text-indigo-600">2. Klasifikasi AI: Tiga Tipe Utama</h3>
+            <ul class="space-y-4 text-lg">
+                <li class="p-3 bg-white rounded-lg shadow-md border-l-4 border-indigo-500">
+                    <strong class="font-semibold">Narrow AI (ANI):</strong> AI yang dirancang untuk satu tugas tertentu. (Contoh: Asisten suara, sistem rekomendasi).
+                </li>
+                <li class="p-3 bg-white rounded-lg shadow-md border-l-4 border-indigo-500">
+                    <strong class="font-semibold">General AI (AGI):</strong> Kemampuan memecahkan masalah dalam berbagai domain, setara kecerdasan manusia. (Masih teoritis).
+                </li>
+                <li class="p-3 bg-white rounded-lg shadow-md border-l-4 border-indigo-500">
+                    <strong class="font-semibold">Super AI (ASI):</strong> AI yang melampaui kecerdasan manusia secara keseluruhan. (Konsep futuristik).
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Slide 3: Penerapan AI -->
+    <section id="konten-3" class="slide bg-white">
+        <div class="max-w-4xl mx-auto p-6">
+            <h3 class="text-3xl font-bold mb-4 text-indigo-600">3. AI dalam Kehidupan Sehari-hari</h3>
+            <p class="text-lg leading-relaxed mb-4">
+                AI sudah menjadi bagian integral dari layanan dan produk modern.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-500">
+                    <strong class="block font-semibold">Kesehatan:</strong> Diagnosis berbasis citra medis.
+                </div>
+                <div class="p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-500">
+                    <strong class="block font-semibold">Transportasi:</strong> Mobil otonom.
+                </div>
+                <div class="p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-500">
+                    <strong class="block font-semibold">Keuangan:</strong> Mendeteksi penipuan.
+                </div>
+                <div class="p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-500">
+                    <strong class="block font-semibold">E-commerce:</strong> Rekomendasi produk.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slide 4: Etika dan Tantangan -->
+    <section id="konten-4" class="slide bg-gray-100">
+        <div class="max-w-4xl mx-auto p-6">
+            <h3 class="text-3xl font-bold mb-4 text-indigo-600">4. Tantangan dan Etika AI</h3>
+            <p class="text-lg leading-relaxed mb-4">
+                Kemajuan AI memunculkan dilema penting.
+            </p>
+            <ul class="space-y-2 text-lg list-disc list-inside">
+                <li><strong class="font-semibold">Bias Data:</strong> Menimbulkan keputusan yang tidak adil.</li>
+                <li><strong class="font-semibold">Kehilangan Pekerjaan:</strong> Dampak otomatisasi terhadap tenaga kerja.</li>
+                <li><strong class="font-semibold">Transparansi:</strong> Sulit memahami logika di balik keputusan AI ("Kotak Hitam").</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 3. Media Pendukung (Wajib: Kombinasi dua media berbeda dengan Thumbnail) -->
+    <section id="media" class="slide bg-indigo-50">
+        <div class="max-w-4xl mx-auto p-6 text-center">
+            <h3 class="text-3xl font-bold mb-8 text-indigo-700">Dukungan Visual untuk Pemahaman</h3>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Media 1: Video (Thumbnail) -->
+                <div class="media-thumbnail-container p-4 bg-white rounded-xl shadow-lg">
+                    <h4 class="text-xl font-semibold mb-3">Tonton: Sejarah Singkat AI</h4>
+                    <a href="https://youtu.be/-4mNPZYQ7no?si=eYPpgcIIO6nbI66B" target="_blank" rel="noopener noreferrer">
+                        <!-- Placeholder Thumbnail untuk Video -->
+                        <img src="https://placehold.co/600x337/3b82f6/ffffff?text=Video+Thumbnail" 
+                             alt="Thumbnail Video Sejarah AI" 
+                             class="w-full h-auto rounded-lg mb-2 border-2 border-indigo-300 transition duration-300 hover:border-indigo-500">
+                    </a>
+                    <p class="text-sm text-gray-500">Media 1: Video (Bukan tautan mentah)</p>
+                </div>
+
+                <!-- Media 2: Dokumen/Infografis (Thumbnail) -->
+                <div class="media-thumbnail-container p-4 bg-white rounded-xl shadow-lg">
+                    <h4 class="text-xl font-semibold mb-3">Unduh: Infografis Timeline AI</h4>
+                    <a href="https://drive.google.com/drive/folders/1lGCmSh-N5M7TV8aUYahf42ULQOaYWeEe?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <!-- Placeholder Thumbnail untuk Dokumen/Infografis -->
+                        <img src="https://placehold.co/600x337/ef4444/ffffff?text=Infografis+PDF+Thumbnail" 
+                             alt="Thumbnail Infografis Timeline AI" 
+                             class="w-full h-auto rounded-lg mb-2 border-2 border-indigo-300 transition duration-300 hover:border-indigo-500">
+                    </a>
+                    <p class="text-sm text-gray-500">Media 2: Dokumen/Infografis (Bukan tautan mentah)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Elemen Interaktif (Wajib: Kuis Daring di dalam Landing Page) -->
+    <section id="kuis" class="slide bg-white">
+        <div class="max-w-4xl mx-auto p-6">
+            <h3 class="text-3xl font-bold mb-6 text-indigo-700 text-center">Uji Pemahaman Singkat Anda!</h3>
+            
+            <div id="quiz-container" class="bg-gray-50 p-6 rounded-xl shadow-lg border border-gray-200">
+                <form id="ai-quiz" class="space-y-6">
+                    <!-- Soal 1 -->
+                    <div>
+                        <p class="font-semibold mb-2">1. Jenis AI yang hanya dapat melakukan satu tugas spesifik disebut?</p>
+                        <div class="space-y-1 text-sm">
+                            <label class="block cursor-pointer p-2 rounded hover:bg-indigo-100 transition duration-150 border border-transparent">
+                                <input type="radio" name="q1" value="A" class="mr-2 text-indigo-600 focus:ring-indigo-500"> General AI
+                            </label>
+                            <label class="block cursor-pointer p-2 rounded hover:bg-indigo-100 transition duration-150 border border-transparent">
+                                <input type="radio" name="q1" value="B" class="mr-2 text-indigo-600 focus:ring-indigo-500"> Super AI
+                            </label>
+                            <label class="block cursor-pointer p-2 rounded hover:bg-indigo-100 transition duration-150 border border-transparent">
+                                <input type="radio" name="q1" value="C" class="mr-2 text-indigo-600 focus:ring-indigo-500"> Narrow AI
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Soal 2 -->
+                    <div>
+                        <p class="font-semibold mb-2">2. Manakah di bawah ini yang merupakan salah satu tantangan etika utama AI?</p>
+                        <div class="space-y-1 text-sm">
+                            <label class="block cursor-pointer p-2 rounded hover:bg-indigo-100 transition duration-150 border border-transparent">
+                                <input type="radio" name="q2" value="A" class="mr-2 text-indigo-600 focus:ring-indigo-500"> Biaya listrik
+                            </label>
+                            <label class="block cursor-pointer p-2 rounded hover:bg-indigo-100 transition duration-150 border border-transparent">
+                                <input type="radio" name="q2" value="B" class="mr-2 text-indigo-600 focus:ring-indigo-500"> Transparansi (Explainability)
+                            </label>
+                            <label class="block cursor-pointer p-2 rounded hover:bg-indigo-100 transition duration-150 border border-transparent">
+                                <input type="radio" name="q2" value="C" class="mr-2 text-indigo-600 focus:ring-indigo-500"> Kecepatan internet
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="button" onclick="submitQuiz()" class="w-full bg-indigo-600 text-white py-3 mt-4 rounded-lg font-bold hover:bg-indigo-700 transition duration-300 shadow-lg">
+                        Cek Hasil
+                    </button>
+                </form>
+
+                <div id="quiz-result" class="mt-4 text-center font-bold text-lg hidden p-4 rounded-lg border">
+                    <!-- Hasil Kuis akan ditampilkan di sini oleh JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Bagian Diskusi (Wajib: 2-5 pertanyaan diskusi) -->
+    <section id="diskusi" class="slide bg-indigo-700 text-white">
+        <div class="max-w-4xl mx-auto p-6">
+            <h3 class="text-3xl font-bold mb-6 text-center">Poin Diskusi (Untuk Refleksi Lanjutan)</h3>
+            <p class="text-lg mb-6 text-center font-light">
+                Pikirkan tentang pertanyaan-pertanyaan ini dan diskusikan dengan rekan belajar Anda:
+            </p>
+            
+            <div class="space-y-4">
+                <div class="p-4 bg-indigo-600 rounded-lg shadow-xl border-l-4 border-yellow-300">
+                    <span class="font-bold text-yellow-300 mr-2">Q1.</span> Jika AI menjadi Bias, bagaimana cara kita memastikan algoritma AI mengambil keputusan yang adil dalam kehidupan nyata?
+                </div>
+                <div class="p-4 bg-indigo-600 rounded-lg shadow-xl border-l-4 border-yellow-300">
+                    <span class="font-bold text-yellow-300 mr-2">Q2.</span> Sebutkan satu pekerjaan yang menurut Anda paling rentan digantikan oleh Narrow AI, dan mengapa?
+                </div>
+                <div class="p-4 bg-indigo-600 rounded-lg shadow-xl border-l-4 border-yellow-300">
+                    <span class="font-bold text-yellow-300 mr-2">Q3.</span> Tantangan etika mana (privasi, bias, otomatisasi) yang menurut Anda paling mendesak di Indonesia saat ini?
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Tautan (Wajib: Teks, bukan video) -->
+    <section id="tautan" class="slide bg-gray-100">
+        <div class="max-w-4xl mx-auto p-6">
+            <h3 class="text-3xl font-bold mb-6 text-indigo-700 text-center">Materi Tambahan: Tautan Teks</h3>
+            <p class="text-lg mb-6 text-center">
+                Perluas wawasan Anda dengan dokumen dan artikel berbasis teks berikut:
+            </p>
+            <div class="space-y-3">
+                <a href="https://example.com/artikel-ai-untuk-pemula" target="_blank" rel="noopener noreferrer" 
+                   class="block p-4 bg-white rounded-lg shadow transition duration-300 border-l-4 border-indigo-400 hover:bg-blue-50">
+                    <strong class="text-indigo-600">Artikel Mendalam:</strong> Dasar Matematika di Balik AI
+                    <span class="text-sm text-gray-500 block"> - Sumber: Contoh Situs Edukasi</span>
+                </a>
+                <a href="https://example.com/etika-dan-regulasi-ai" target="_blank" rel="noopener noreferrer" 
+                   class="block p-4 bg-white rounded-lg shadow transition duration-300 border-l-4 border-indigo-400 hover:bg-blue-50">
+                    <strong class="text-indigo-600">Jurnal/Regulasi:</strong> Kerangka Regulasi AI di Asia Tenggara
+                    <span class="text-sm text-gray-500 block"> - Sumber: Contoh Pusat Studi</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Call to Action (Wajib: Ajakan untuk melakukan sesuatu di luar landing page) -->
+    <section id="cta" class="slide bg-pink-600 text-white">
+        <div class="max-w-4xl mx-auto p-6 text-center">
+            <h3 class="text-4xl font-extrabold mb-4">Siap Menjadi Ahli AI?</h3>
+            <p class="text-xl mb-8 font-light">
+                Teaser ini hanyalah permulaan. Segera daftar di kelas seminar kami untuk mendapatkan sertifikasi dan bimbingan langsung dari ahlinya!
+            </p>
+            <!-- Tombol CTA yang mengarah ke luar landing page -->
+            <a href="https://forms.gle/zfpU6JhzT9WuhmgAA" target="_blank" rel="noopener noreferrer" 
+               class="inline-block bg-yellow-400 text-pink-900 font-bold text-xl py-4 px-10 rounded-full uppercase tracking-wider hover:bg-yellow-300 transition duration-300 shadow-2xl transform hover:scale-105">
+                DAFTAR KELAS FULL SEKARANG!
+            </a>
+            <p class="mt-4 text-sm font-light italic">
+                (Anda akan diarahkan ke halaman pendaftaran di luar platform ini)
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-4 text-center text-sm">
+        &copy; 2025 AI.DASAR Teaser Pembelajaran.
+    </footer>
+
+    <!-- Logika JavaScript untuk Kuis -->
+    <script>
+        // Data Jawaban Kuis
+        const correctAnswers = {
+            q1: 'C', // Narrow AI
+            q2: 'B'  // Transparansi
+        };
+
+        function submitQuiz() {
+            const form = document.getElementById('ai-quiz');
+            const resultDiv = document.getElementById('quiz-result');
+            let score = 0;
+            let totalQuestions = 0;
+            
+            resultDiv.innerHTML = '';
+            // Reset kelas agar siap untuk hasil baru
+            resultDiv.classList.remove('hidden', 'bg-red-100', 'text-red-800', 'bg-yellow-100', 'text-yellow-800', 'bg-green-100', 'text-green-800', 'border-red-500', 'border-yellow-500', 'border-green-500');
+
+            // Cek Jawaban
+            for (const question in correctAnswers) {
+                totalQuestions++;
+                // Pastikan input radio dipilih
+                const selectedInput = form.querySelector(`input[name="${question}"]:checked`);
+                const selected = selectedInput ? selectedInput.value : '';
+                
+                if (selected === correctAnswers[question]) {
+                    score++;
+                }
+            }
+
+            // Tampilkan Hasil
+            let message = '';
+
+            if (score === totalQuestions) {
+                message = `Selamat! Anda berhasil menjawab ${score} dari ${totalQuestions} pertanyaan dengan benar. Pemahaman Anda Sangat Baik!`;
+                resultDiv.classList.add('bg-green-100', 'text-green-800', 'border-green-500');
+            } else if (score > 0) {
+                message = `Hasil: ${score} dari ${totalQuestions} pertanyaan benar. Anda sudah memahami dasarnya, coba lagi untuk skor sempurna!`;
+                resultDiv.classList.add('bg-yellow-100', 'text-yellow-800', 'border-yellow-500');
+            } else {
+                message = `Hasil: ${score} dari ${totalQuestions} pertanyaan benar. Jangan putus asa, gulir ke atas dan tinjau materi lagi!`;
+                resultDiv.classList.add('bg-red-100', 'text-red-800', 'border-red-500');
+            }
+
+            resultDiv.innerHTML = `<p>${message}</p>`;
+            resultDiv.classList.remove('hidden');
+
+            // Gulir ke hasil kuis agar mudah dilihat pengguna
+            resultDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    </script>
+</body>
+</html>
